@@ -21,3 +21,10 @@ https://pypi.org/project/pyads/
 
 ## TwinCAT
 This project uses TcXaeShell 3.1.4024.0
+
+## Getting started
+This is not a guide for TcXaeShell, please visit http://beckhoff.com/ for further guides
+* Open the included TwinCAT project and activate on your local machine
+* Login and set the PLC running
+* Run the HelloWorld.py
+
