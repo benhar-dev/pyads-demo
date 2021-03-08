@@ -28,3 +28,16 @@ This is not a guide for TcXaeShell, please visit http://beckhoff.com/ for furthe
 * Login and set the PLC running
 * Run the HelloWorld.py
 
+## Common error messages
+
+### ADSError: target machine not found    Missing ADS routes (7). 
+Incorrect ads address
+
+### ADSError: timeout elapsed (1861).
+Correct Route on the Client, but Route missing on the target side.
+
+### ADSError: target port not found   ADS Server not started (6). 
+Incorrect target port (by default this is 851 for TwinCAT3)
+
+### ADSError: symbol not found (1808).
+Possible incorrect runtime port selected
